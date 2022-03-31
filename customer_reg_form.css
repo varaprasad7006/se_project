@@ -1,0 +1,85 @@
+::-webkit-input-placeholder {
+    font-size: 2.1vh;
+    /* //font-family:verdana; */
+}
+
+.container_regfrm_container_parent h3 {
+    text-align: center;
+    border: 1px solid rgba(5, 5, 5, 0.5);
+    background-color: #8c9396;
+    font-size: 3.5vh;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    padding: 15px;
+    width: 30%;
+    margin: 2% auto;
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.6);
+}
+
+.container_regfrm_container_parent_child {
+    border: 1px solid white;
+    padding: 2%;
+    margin: 5% auto;
+    background-color: #43748b;
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.6);
+    border: 1px solid rgba(117, 116, 59, 0.5);
+    width: 80%;
+    /* // border-radius: 15px; */
+}
+
+.container_regfrm_container_parent_child input[type="text"],
+input[type="date"],
+select {
+    width: 20%;
+    padding: 0.5%;
+    margin: 2%;
+    color: rgb(117, 117, 117);
+    border: 1px solid white;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+    font-size: 2.1vh;
+}
+
+.container_regfrm_container_parent_child input[name="homeaddrs"] {
+    /* //background-color: black; */
+    width: 94%;
+    display: block;
+    padding: 0.5%;
+    margin: 2%;
+    color: rgb(117, 117, 117);
+    border: 1px solid white;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+    font-size: 2.1vh;
+}
+
+.container_regfrm_container_parent_child input[name="officeaddrs"] {
+    /* //background-color: black; */
+    width: 94%;
+    display: block;
+    padding: 0.5%;
+    margin: 2%;
+    color: rgb(117, 117, 117);
+    border: 1px solid white;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+    font-size: 2.1vh;
+}
+
+.container_regfrm_container_parent_child input[type="submit"] {
+    width: 12%;
+    color: white;
+    font-size: 3vh;
+    background-color: rgb(223, 233, 177);
+    border-radius: 3px;
+    box-shadow: 0px 2px black;
+    border: 0px;
+    display: block;
+    margin: 1% auto;
+    padding: 0.5%;
+}
+
+.container_regfrm_container_parent_child input[type="submit"]:hover {
+    cursor: pointer;
+    background-color: rgba(207, 231, 140, 0.7);
+}
